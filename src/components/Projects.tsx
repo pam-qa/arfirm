@@ -64,8 +64,8 @@ function ProjectBlock({
         />
       </div>
       <div className="mt-6 flex flex-wrap items-baseline justify-between gap-3 border-b border-line pb-7">
-        <h3 className="font-display text-[1.55rem] text-ink-soft">{project.name}</h3>
-        <p className="text-[0.74rem] uppercase tracking-[0.15em] text-stone">
+        <h3 className="font-display text-[1.72rem] text-ink-soft">{project.name}</h3>
+        <p className="text-[0.9rem] uppercase tracking-[0.12em] text-stone">
           {project.type} - {project.year}
         </p>
       </div>
@@ -77,7 +77,7 @@ export default function Projects() {
   return (
     <section id="work" className="px-6 pb-24 md:px-14 md:pb-40">
       <Reveal className="mb-16 flex items-baseline justify-between border-b border-line pb-7 md:mb-20">
-        <span className="text-[0.72rem] uppercase tracking-[0.2em] text-stone">
+        <span className="text-[1.04rem] uppercase tracking-[0.1em] text-stone">
           Selected Houses
         </span>
         <span className="font-display text-[1rem] text-stone">2019 - 2025</span>

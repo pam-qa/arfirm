@@ -20,12 +20,12 @@ export default function About() {
 
         <div className="pt-1 md:pt-5">
           <Reveal>
-            <p className="mb-10 text-[0.58rem] uppercase tracking-[0.24em] text-stone">
+            <p className="mb-10 text-[1.04rem] uppercase tracking-[0.1em] text-stone">
               02 - The Studio
             </p>
             <h2
-              className="font-display text-ink-soft leading-[1.16] font-light"
-              style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)" }}
+              className="font-display text-ink-soft leading-[1.18] font-normal"
+              style={{ fontSize: "clamp(2.2rem, 4.2vw, 3.6rem)" }}
             >
               A studio devoted
               <br />
@@ -36,7 +36,7 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={110} className="mt-10">
-            <p className="max-w-[52ch] text-[0.84rem] leading-[1.9] text-stone">
+            <p className="max-w-[52ch] text-[1.05rem] leading-[1.8] text-stone">
               We work exclusively on residential projects - new houses, renovations,
               extensions, and interiors. Our process is intentionally measured, with
               each decision guided by daily rituals, climate, and material quietness.

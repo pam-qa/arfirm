@@ -33,11 +33,11 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-[rgba(32,28,24,0.18)] via-[rgba(32,28,24,0.2)] to-[rgba(32,28,24,0.58)]" />
 
       <div className="absolute bottom-[10vh] left-6 md:left-14">
-        <p className="hero-eyebrow mb-5 text-[0.7rem] tracking-[0.24em] uppercase text-paper/60 md:mb-7">
+        <p className="hero-eyebrow mb-5 text-[0.86rem] tracking-[0.18em] uppercase text-paper/75 md:mb-7">
           Residential Architecture
         </p>
         <h1
-          className="hero-title font-display font-light leading-[1.03] text-paper/95"
+          className="hero-title font-display font-normal leading-[1.05] text-paper/95"
           style={{ fontSize: "clamp(2.5rem, 7vw, 6.2rem)" }}
         >
           Homes composed for
@@ -47,7 +47,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-aside absolute bottom-[10vh] right-6 md:right-14">
-        <p className="font-display text-[0.85rem] italic text-paper/65">
+        <p className="font-display text-[1rem] italic text-paper/75">
           Paris 2026
         </p>
       </div>

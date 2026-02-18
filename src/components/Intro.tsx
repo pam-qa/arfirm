@@ -5,11 +5,11 @@ export default function Intro() {
     <section className="mx-auto grid max-w-screen-xl grid-cols-1 gap-14 px-6 py-32 md:grid-cols-2 md:gap-24 md:px-14 md:py-48 items-end">
       <div>
         <Reveal>
-          <p className="mb-10 text-[0.72rem] tracking-[0.2em] uppercase text-stone md:mb-14">
+          <p className="mb-10 text-[0.9rem] tracking-[0.14em] uppercase text-stone md:mb-14">
             01 - Philosophy
           </p>
           <h2
-            className="font-display font-light leading-[1.18] text-ink-soft"
+            className="font-display font-normal leading-[1.2] text-ink-soft"
             style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
           >
             Residences shaped

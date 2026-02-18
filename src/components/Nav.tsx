@@ -22,13 +22,13 @@ export default function Nav() {
   return (
     <nav
       className={`fixed inset-x-0 top-0 z-50 flex items-center justify-between px-6 py-6 md:px-14 md:py-8 transition-all duration-700 ${
-        scrolled ? "bg-paper/70 backdrop-blur-sm border-b border-line/70" : ""
+        scrolled ? "bg-black/55 backdrop-blur-sm" : ""
       }`}
     >
       <Link
         href="#"
-        className={`font-display text-[1.02rem] tracking-[0.22em] transition-colors duration-500 ${
-          scrolled ? "text-ink-soft" : "text-paper"
+        className={`font-display text-[1.1rem] tracking-[0.18em] transition-colors duration-500 ${
+          scrolled ? "text-paper" : "text-paper"
         }`}
       >
         ARFIRM
@@ -39,9 +39,9 @@ export default function Nav() {
           <li key={label}>
             <Link
               href={href}
-              className={`text-[0.72rem] tracking-[0.18em] uppercase no-underline transition-colors duration-500 ${
+              className={`text-[0.82rem] tracking-[0.14em] uppercase no-underline transition-colors duration-500 ${
                 scrolled
-                  ? "text-stone hover:text-ink-soft"
+                  ? "text-paper/85 hover:text-paper"
                   : "text-paper/70 hover:text-paper"
               }`}
             >

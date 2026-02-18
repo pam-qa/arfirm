@@ -90,11 +90,11 @@ export default function GalleryRoller() {
   return (
     <section className="px-6 pb-24 md:px-14 md:pb-36">
       <Reveal className="mb-10 flex items-baseline justify-between pb-4 md:mb-14">
-        <span className="text-[0.72rem] uppercase tracking-[0.2em] text-stone">
-          Gallery Roller
+        <span className="text-[1.04rem] uppercase tracking-[0.1em] text-stone">
+          Curated Portfolio
         </span>
-        <span className="font-display text-[1rem] text-stone italic">
-          Hover left or right
+        <span className="font-display text-[1.1rem] text-stone italic">
+          Private Residential Works
         </span>
       </Reveal>
 
@@ -120,10 +120,10 @@ export default function GalleryRoller() {
               <div className="absolute inset-0 bg-gradient-to-t from-[rgba(23,20,16,0.68)] via-[rgba(23,20,16,0.14)] to-transparent opacity-0 transition-opacity duration-400 group-hover:opacity-100" />
               <div className="pointer-events-none absolute inset-x-0 bottom-0 p-5 opacity-0 transition-opacity duration-400 group-hover:opacity-100 md:p-6">
                 <p className="font-display text-[1.22rem] leading-none text-paper">{photo.title}</p>
-                <p className="mt-2 text-[0.68rem] uppercase tracking-[0.14em] text-paper/85">
+                <p className="mt-2 text-[0.84rem] uppercase tracking-[0.1em] text-paper/90">
                   {photo.style}
                 </p>
-                <div className="mt-3 flex gap-4 text-[0.66rem] uppercase tracking-[0.12em] text-paper/80">
+                <div className="mt-3 flex gap-4 text-[0.82rem] uppercase tracking-[0.09em] text-paper/85">
                   <span>{photo.bedrooms}</span>
                   <span>{photo.area}</span>
                 </div>
